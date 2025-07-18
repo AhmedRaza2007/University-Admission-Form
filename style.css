@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    border: 5px solid #D8587E;
+}
+
+.logo {
+    border-right: 5px solid #D8587E;
+}
+
+.navbar-div h2 {
+    font-size: 31px;
+    text-align: center;
+}
+
+.navbar-div h3 {
+    font-size: 21px;
+}
+
+.navbar-div p {
+    font-size: 21px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.navbar-div {
+    text-align: center;
+    padding-left: 15px;
+    color: #D8587E;
+}
+
+.form-container {
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 40px;
+}
+
+.header {
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 2px;
+}
+.header h2,
+.header h3 {
+    margin: 5px 0;
+}
+
+.header h3{
+        background-color: #D8587E;
+    padding: 6px 15px;
+    color: white;
+    font-size: 44px;
+}
+.header strong{
+    font-size: 20px;
+}
+.form-section1{
+    display: flex;
+    margin-bottom: 40px;
+}
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h4 {
+        margin-bottom: 40px;
+    text-decoration: underline;
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: 700;
+}
+
+.form-section strong{
+    font-size: 22px;
+    font-weight: 700;
+}
+.form-section-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-section2{
+    margin-bottom: 40px;
+}
+.form-section2 h4 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 2px solid #000;
+    font-size:16px ;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    width: 20%;
+    font-weight: bold;
+}
+
+.input-row input {
+    width: 75%;
+    padding: 5px;
+}
+
+.photo-box {
+    border: 14px solid black;
+    width: 174px;
+    text-align: center;
+    line-height: 27px;
+    float: right;
+    margin-top: -1px;
+    font-size: 19px;
+    font-weight: bold;
+    PADDING-TOP: 56px;
+    PADDING-BOTTOM: 45PX;
+}
+
+.signature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.p-heading{
+    font-size: 22px;
+    text-align: center;
+}
+.p-left{
+    text-align: left;
+}
+.signature strong{
+    border-top: 2px solid;
+}
